@@ -14,8 +14,6 @@
 
 \RequirePackage{sectsty}
 \allsectionsfont{\bfseries\sffamily}
-\allsubsectionsfont{\bfseries\sffamily}
-\allsubsubsectionsfont{\bfseries\sffamily}
 
 %%ends the processing
 \endinput
