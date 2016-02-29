@@ -1,0 +1,14 @@
+NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Algorithms}[2016/02/29 Custom Package]
+\RequirePackage[utf3]{inputenc}
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{pgfplots}
+\RequirePackage[english]{bablel}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\pgfplotsset{compat=1.10}
+\newcommand*\Eval[3]{\left.#1\right\rvert_{#2}^{#3}}
+\endinput
